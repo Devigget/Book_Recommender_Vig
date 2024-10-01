@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Artifacts (model files, data files)
+artifacts/
+*.pkl
+
+# Logs and caches
+*.log
+*.cache
+
+# System-specific files
+.DS_Store  # Mac (optional)
+Thumbs.db  # Windows (optional)
+
+# Streamlit config (if any)
+.streamlit/config.toml
